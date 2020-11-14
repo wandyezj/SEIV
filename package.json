@@ -1,0 +1,27 @@
+{
+  "name": "seiv",
+  "version": "0.0.0",
+  "description": "Space Empires IV",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "manual": "./node_modules/.bin/ts-node ./src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wandyezj/SEIV.git"
+  },
+  "author": "wandyezj",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/wandyezj/SEIV/issues"
+  },
+  "homepage": "https://github.com/wandyezj/SEIV#readme",
+  "devDependencies": {
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.5"
+  },
+  "dependencies": {
+    "@wandyezj/standard-node": "0.0.6"
+  }
+}
